@@ -1,0 +1,25 @@
+.container{
+    background-color: dimgrey;
+    margin-left: -80%;
+}
+
+.d{
+    margin-top: 5%;
+    width: 120px;
+    margin-left: 5%;
+	margin-bottom: 15%;
+}
+
+.l{
+    width: 120px;
+    margin-left: 9%;
+}
+
+.l1{
+    margin-top: 10%;
+}
+
+label{
+    font-weight: bold;
+    color: floralwhite;
+}

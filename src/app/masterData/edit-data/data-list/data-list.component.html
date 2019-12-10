@@ -1,0 +1,28 @@
+<br>
+
+<table class="table border table-responsiv">
+  <tr class="center th">
+      <th>Sr. No</th>
+      <th>Production Id</th>
+      <th>Plant Id</th>
+      <th>Recipe Id</th>
+      <th>Form Id</th>
+      <th>Strategy Version Id</th>
+      <th>QM Par Id</th>
+      <th>Filling Strategy Id</th>
+      <th>Edit</th>
+      <th>Delete</th>
+  </tr>
+      <tr *ngFor="let mfd of allmfd" align="center" >
+          <td>{{mfd.id}}</td>
+          <td>{{mfd.pro_id}}</td>
+          <td>{{mfd.pla_id}}</td>
+          <td>{{mfd.r_id}}</td>
+          <td>{{mfd.f_id}}</td>
+          <td>{{mfd.s_id}}</td>
+          <td>{{mfd.q_id}}</td>
+          <td>{{mfd.fi_id}}</td>
+          <td><a class="btn"><i class="fa fa-edit zoom" (click)="edit(mfd)"></i></a></td>
+          <td><a class="btn text-danger"><i class="fa fa-trash zoom" (click)="deletemfd(mfd.id)"></i></a></td>
+      </tr>
+    </table>

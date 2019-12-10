@@ -1,0 +1,63 @@
+<br>
+
+<div class="container w3-round-xlarge">
+        <div class="row">
+          <div class="col-md-9 form-group">
+              <label class="l l1">Production Id:</label>
+            <input placeholder="Production ID" class="form-control l" [(ngModel)]="mfdService.currentmfdata.pro_id">
+          </div>
+        </div>
+
+        <div class="row">
+                <div class="col-md-9 form-group">
+                    <label class="l">Plant Id:</label>
+                  <input placeholder="Plant ID" class="form-control l" [(ngModel)]="mfdService.currentmfdata.pla_id">
+                </div>
+              </div>
+
+              <div class="row">
+                    <div class="col-md-9 form-group">
+                        <label class="l">Recipe Id:</label>
+                      <input placeholder="Recipe ID" class="form-control l" [(ngModel)]="mfdService.currentmfdata.r_id">
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-9 form-group">
+                        <label class="l">Form Id:</label>
+                      <input placeholder="form-group ID" class="form-control l" [(ngModel)]="mfdService.currentmfdata.f_id">
+                    </div>
+                  </div>
+
+                  <div class="row">
+                        <div class="col-md-9 form-group">
+                            <label class="l">Strategy Version Id:</label>
+                          <input placeholder="Strategy Id" class="form-control l" [(ngModel)]="mfdService.currentmfdata.s_id">
+                        </div>
+                      </div>
+
+
+                      <div class="row">
+                            <div class="col-md-9 form-group">
+                                <label class="l">QM Par Id:</label>
+                              <input placeholder="QM Par Id" class="form-control l" [(ngModel)]="mfdService.currentmfdata.q_id">
+                            </div>
+                          </div> 
+                          
+                          <div class="row">
+                                <div class="col-md-9 form-group">
+                                    <label class="l">Filling Strategy Id:</label>
+                                  <input placeholder="Filling Id" class="form-control l" [(ngModel)]="mfdService.currentmfdata.fi_id">
+                                </div>
+                              </div>
+
+
+        <div class="row">
+          <div class="col-md-9">
+            <button class="btn btn-success btn-lg btn-block d w3-round-xxlarge" (click)="save(mfdService.currentmfdata)" >
+              <i class="fa fa-save"></i> Submit
+            </button>
+          </div>
+        </div>
+
+</div>
